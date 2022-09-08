@@ -95,7 +95,7 @@ header {
   align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
-  border: 2px solid green;
+
 
 }
 h1 {
@@ -105,25 +105,5 @@ h1 {
   /* border: 5px solid black; */
 }
 
-main {
-  height: 100%;
-  width: 320px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: 3px solid blue;
-
-}
-.box {
-  border: 5px solid red;
-  height: 200px;
-}
-
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
-}
 
 
