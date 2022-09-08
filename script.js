@@ -1,4 +1,4 @@
-var introMessage = ["I love potatos."]
+var introMessage = ["I love potatoes."]
 var textPosition = 0;
 var speed = 120;
 
