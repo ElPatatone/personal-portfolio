@@ -1,7 +1,7 @@
-var message = ["hello.\ni love potatoes.\ni also love machine learning"]
+var message = ["hello.\ni love potatoes.\ni also love machine learning."]
 
 var textPosition = 0;
-var speed = 130;
+var speed = 180;
 
 typewriter = () => {
   document.getElementById("demo").innerHTML = message[0].substring(0, textPosition) + 
