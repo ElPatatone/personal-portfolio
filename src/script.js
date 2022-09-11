@@ -1,7 +1,7 @@
 var message = ["hello.\ni love potatoes.\ni also love machine learning."]
 
 var textPosition = 0;
-var speed = 100;
+var speed = 60;
 
 const nav = document.getElementById('info')
 nav.style.display = "none"

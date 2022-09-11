@@ -116,18 +116,21 @@ main {
 
 }
 
+section p { 
+  /* border: 2px solid red; */
+  margin: 5px;
+}
+
 .info {
     /* border: 2px solid red; */
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
     right: 0;
     bottom: 0;
     /* text-align: center; */
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -138,8 +141,7 @@ h1 {
 }
 
 .nav { 
-    margin-left: 50px;
-    margin-bottom: 5px;;
+  margin: 5px;
 }
 
 .info a {
@@ -153,7 +155,7 @@ h1 {
   
   .info a:hover {
     cursor: pointer;
-    box-shadow: inset 100px 0 0 0 white;
+    box-shadow: inset 120px 0 0 0 white;
     color: black;
   }
   
