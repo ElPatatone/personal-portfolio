@@ -229,7 +229,7 @@ ion-icon:hover {
 }
 
 .about {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -329,15 +329,15 @@ a {
   animation: blink 1s linear 0.1;
   border: 1px solid white;
   display: inline-block;
-  width: 8px;
-  height: 15px;
+  width: 10px;
+  height: 25px;
   background-color: white;
 }
 
 
 
 ion-icon {
-  font-size: 44px;
+  font-size: 80px;
   margin: 20px;
   /* border: 1px solid white; */
   text-decoration: none;
@@ -354,11 +354,11 @@ ion-icon:hover {
 .links {
   margin-top: 100px;;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .about {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -371,13 +371,17 @@ ion-icon:hover {
   /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   background-color: white;
   color: black;
 
 }
  .about p {
-  font-size: 20px;
+  font-size: 25px;
+  width: 1000px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
  }
 
 img {
