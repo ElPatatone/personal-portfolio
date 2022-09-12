@@ -1,4 +1,4 @@
-var message = ["hello.\ni love potatoes.\ni also love machine learning."]
+var message = ["hello, I am Rahman.\ni love potatoes.\ni also love machine learning."]
 
 var textPosition = 0;
 var speed = 60;
