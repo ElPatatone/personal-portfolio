@@ -148,6 +148,7 @@ main {
   /* border: 2px solid yellow; */
   position: absolute;
   top: 0px;
+  margin-top: 10px;
 }
 
 .info {
@@ -163,7 +164,7 @@ main {
   /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 a { 
   text-decoration: none;
@@ -221,6 +222,11 @@ ion-icon:hover {
   color: black;
 }
 
+.links {
+  margin-top: 100px;;
+  display: flex;
+  flex-direction: column;
+}
 
 .about {
   border: 2px solid red;
@@ -236,7 +242,7 @@ ion-icon:hover {
   /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: white;
   color: black;
 
