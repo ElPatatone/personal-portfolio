@@ -144,31 +144,20 @@ main {
   justify-content: center;
 }
 
-.box p {
-  /* border: 2px solid yellow; */
-  position: absolute;
-  top: 0px;
-  margin-top: 10px;
-}
 
-.info {
-  /* border: 2px solid red; */
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
 .info h1 {
-  font-size: 20px;
-  /* border: 2px solid blue; */
+  font-size: 25px;
+  border: 2px solid blue;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 a { 
   text-decoration: none;
+}
 
+#aboutme {
+  margin-bottom: 60px;
 }
 .info a {
   /* box-shadow: inset 0 0 0 0 white; */
@@ -181,7 +170,7 @@ a {
 
 .info a:hover {
   cursor: pointer;
-  box-shadow: inset 120px 0 0 0 white;
+  box-shadow: inset 160px 0 0 0 white;
   color: black;
 }
 
@@ -189,21 +178,6 @@ a {
   color: white;
   white-space: pre-wrap;
   line-height: 45px;
-}
-
-.blinker {
-  animation: blink 1s linear 0.1;
-  border: 1px solid white;
-  display: inline-block;
-  width: 8px;
-  height: 15px;
-  background-color: white;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
 }
 
 
@@ -228,9 +202,23 @@ ion-icon:hover {
   flex-direction: column;
 }
 
+h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(104, 104, 104);
+  color: white;
+  margin-top: 25px;
+}
+
+.about h3 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+}
 .about {
-  /* border: 2px solid red; */
-  height: 100%;
+  border: 2px solid red;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -242,11 +230,38 @@ ion-icon:hover {
   /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   margin-bottom: 40px;
   background-color: white;
   color: black;
 
 }
+.about p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+.about a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+  color: white;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.about a:hover {
+  cursor: pointer;
+  box-shadow: inset 360px 0 0 0 white;
+  color: black;
+}
+
+/* #project {
+  height: 3300px;
+} */
+
 
 img {
   /* width: 60%; */
@@ -257,141 +272,9 @@ img {
   margin-bottom: 20px;
 }
 
+@media screen {
+  
+}
 
-@media (min-width: 900px) {
-    main{
-      width: 95%;
-    }
-
-    h1{
-      font-size: 45px;
-    }
 
     
-.box {
-  /* border: 1px solid white; */
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.box p {
-  /* border: 2px solid yellow; */
-  position: absolute;
-  top: 0px;
-  margin-top: 50px;
-  margin-left: 80px;
-  font-size: 25px;
-}
-
-.info {
-  /* border: 2px solid red; */
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-.info h1 {
-  font-size: 40px;
-  /* border: 2px solid blue; */
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-a { 
-  text-decoration: none;
-
-}
-.info a {
-  /* box-shadow: inset 0 0 0 0 white; */
-  /* border: 2px solid blue; */
-  color: white;
-  margin: 0 -.25rem;
-  padding: 0 .25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.info a:hover {
-  cursor: pointer;
-  box-shadow: inset 240px 0 0 0 white;
-  color: black;
-}
-
-#intro {
-  color: white;
-  white-space: pre-wrap;
-  line-height: 45px;
-}
-
-.blinker {
-  animation: blink 1s linear 0.1;
-  border: 1px solid white;
-  display: inline-block;
-  width: 10px;
-  height: 25px;
-  background-color: white;
-}
-
-
-
-ion-icon {
-  font-size: 80px;
-  margin: 20px;
-  /* border: 1px solid white; */
-  text-decoration: none;
-  color: white;
-  transition: color .2s ease-in-out box-shadow;
-}
-
-ion-icon:hover {
-  cursor: pointer;
-  box-shadow: inset 100px 0 0 0 white;
-  color: black;
-}
-
-.links {
-  margin-top: 100px;;
-  display: flex;
-  flex-direction: row;
-}
-
-.about {
-  /* border: 2px solid red; */
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-
-}
-
-.about h1 {
-  /* border: 2px solid blue; */
-  display: flex;
-  justify-content: center;
-  margin-bottom: 120px;
-  background-color: white;
-  color: black;
-
-}
- .about p {
-  font-size: 25px;
-  width: 1000px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
- }
-
-img {
-  /* width: 60%; */
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  border: 2px solid white;
-  margin-bottom: 40px;
-}
-
-    
-}
