@@ -147,7 +147,7 @@ main {
 
 .info h1 {
   font-size: 25px;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -217,7 +217,7 @@ h2 {
   border-bottom: 2px solid white;
 }
 .about {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: auto;
   display: flex;
   flex-direction: column;
