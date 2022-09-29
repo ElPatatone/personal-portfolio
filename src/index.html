@@ -10,7 +10,7 @@
 <body>
     <main>
         <section class="box">
-            <p id="intro" id="blinker"></p>
+
             <div class="info" id="info">
                 <h1><a href="#about" id="about">about me</a></h1>
                 <h1><a href="#projects">projects</a></h1>
@@ -23,26 +23,44 @@
             <h1>about me</h1>
 
             <img src="face.jpg" alt="profile">
-            <p>
-                Hi, I am Rahman, I also go by Elpatatone online. It loosely translates to the big potato, I love potatoes. <br> <br>
-
-                I am a second year in computer science studying in London, I am interested in machine learning and I am currently going deep into deep learning (pun inteded)
-                I am thinking of specialising in computer vision for the next long while because of it's many applications.
-                These days my main hobbies are gaming and sports. I love badminton and reguralry go to sessions, I have also started playing volleyball and it is also really fun.
-                The games I play the most are league of legends.
-
-                I have been working on several machine learning projects, but have since moved to deep learning as the applications it provides are vastly more interesting to me. <br>
+            <p id="aboutme">
+                Hi, I am Rahman and go by elpatatone online (loosely translates to the big potato, I love potatoes). 
+                I am interested in deep learning and its implementations in computer vision, namely with autonomous robots.
+                <br> <br>
+                If I am not looking at errors in the command line I am either gaming or out in the courts playing badminton and lately volleyball too.
 
             </p>
         </section>
 
         <section class="about" id="projects">
             <h1>projects</h1>
-            <p>
-                Here are my projects
-            </p> <br>  
-            <p>I have made a streamlit app that will predict a mark depending on the amount of hours studied. It uses a linear regression model</p> <br>
-            <h2><a href="https://elpatatone-student-mark-prediction-app-uzrcq8.streamlitapp.com" target="_blank">Try it out</a></h2>
+            <h2 class="projects">CNN potato image classifier</h2> 
+            <br>  
+            <p>A CNN model made to solve a binary classification problem, I used Tensorflow that will predict if an image is a potato or not (I love potatoes).
+                The data was gathered by scraping the web for images of potatoes and vegetables for images as not being potatoes.
+            </p> <br>
+
+            <h3><a href="https://github.com/ElPatatone/Potato-image-classifier" target="_blank">Source code for the project</a></h3>
+ 
+
+            <h2>Yelp reviews sentiment analyser</h2> 
+            <br>  
+            <p>This is a NLP app that will do sentiment analysis on yelp reviews that have been scraped from their site.
+                I used a pretrained BERT model that was finetuned on product reviews data.
+            </p> <br>
+
+            <h3><a href="https://elpatatone-sentiment-analysis-bert-app-mzoj3t.streamlitapp.com" target="_blank">Try it out here</a></h3>
+            <h3><a href="https://github.com/ElPatatone/Sentiment-Analysis-BERT" target="_blank">Source code for the project</a></h3>
+
+            <h2>Student mark prediction</h2> 
+            <br>  
+            <p>This is a streamlit app that will predict a 
+                mark depending on the amount of hours studied. 
+                It uses a simple linear regression model and takes in one input, the amount of hours studied to calculate the mark of a student.</p> <br>
+
+            <h3><a href="https://elpatatone-student-mark-prediction-app-uzrcq8.streamlitapp.com" target="_blank">Try it out here</a></h3>
+            <h3><a href="https://github.com/ElPatatone/student-mark-prediction" target="_blank">Source code for the project</a></h3>
+            
         </section>
         <section class="about" id="contact">
             <h1>contact</h1>
