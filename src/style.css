@@ -89,7 +89,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(46, 46, 46);
   font-family: var(--fw-regular);
   color: white;
 
