@@ -89,8 +89,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(46, 46, 46);
   font-family: var(--fw-regular);
+  background-color: rgb(27, 27, 27);
   color: white;
 
   
@@ -302,7 +302,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     font-family: var(--fw-regular);
     color: white;
   }
@@ -533,7 +532,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     font-family: var(--fw-regular);
     color: white;
   }
@@ -759,7 +757,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     font-family: var(--fw-regular);
     color: white;
   }
@@ -987,7 +984,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     font-family: var(--fw-regular);
     color: white;
   }
